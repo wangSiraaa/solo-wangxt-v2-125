@@ -1,0 +1,21 @@
+{
+  "name": "plume-lab-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "离线高斯烟羽教学应用前端（Vue 3 + MapLibre GL，无外部瓦片）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3-contour": "^4.0.2",
+    "maplibre-gl": "^4.7.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^5.4.11"
+  }
+}
